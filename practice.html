@@ -2,14 +2,73 @@
 <!-- by pressing ! and pressing enter a skeleton with the HTML structure is created for you -->
 <!-- by highlighting a section of text in VSCODE and pressing command + / you can make that section a comment. -->
 <html lang="en">
-    <!-- Always use a language attribute prior to the opening head tag in the html doc tag to declare the default language of the text in the page. When the page contains content in another language, add a language attribute to an element surrounding that content. -->
-<head>
-    <meta charset="UTF-8">
-    <!-- when you declare the "charset" as "UTF-8", you are telling your browser to use the UTF-8 character encoding, which is a method of converting your typed characters into machine-readable code -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Always use a language attribute prior to the opening head tag in the html doc tag to declare the default language of the text in the page. When the page contains content in another language, add a language attribute to an element surrounding that content. -->
+  <head>
+    <!-- The Head contains the data, which informs the browser and even web servers that it is an HTML 5 document -->
+    <meta charset="UTF-8" />
+    <!-- The default character encoding in HTML5 is UTF-8. when you declare the "charset" as "UTF-8", you are telling your browser to use the UTF-8 character encoding, which is a method of converting your typed characters into machine-readable code -->
+
+    <!-- A character-set different from UTF-8 can be specified in the <meta> tag:
+    <meta charset="ISO-8859-1"> -->
+
+    <!-- The Unicode Consortium developed the UTF-8 and UTF-16 standards, because the ISO-8859 character-sets are limited, and not compatible a multilingual environment. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- width=device-width sets the width of the page to follow the screen-width of the device on which the site is being viewed, this will vary depending on the device. initial-scale=1.0 sets the initial zoom level when the page is first loaded by the browser. -->
     <title>HTML PRACTICE</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- New Elements in HTML5
+<article>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <footer>, <header>, <nav>, <output>, <progress>, <section>, <video>, and even more! -->
+    <header>
+      <nav>
+        <ul>
+          <li>Your menu</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <article>
+        <header>
+          <h2>Article title</h2>
+          <p>
+            Posted on
+            <time datetime="2020-10-29T16:31:24+02:00">October 20, 2020</time>
+            by <a href="#">Writer</a> - <a href="#comments">6 comments</a>
+          </p>
+        </header>
+        <p>
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas.
+        </p>
+      </article>
+
+      <article>
+        <header>
+          <h2>Article title</h2>
+          <p>
+            Posted on
+            <time datetime="2020-10-29T16:31:24+02:00">October 20, 2020</time>
+            by <a href="#">Writer</a> - <a href="#comments">6 comments</a>
+          </p>
+        </header>
+        <p>
+          Pellentesque habitant morbi tristique senectus et netus et malesuada
+          fames ac turpis egestas.
+        </p>
+      </article>
+    </section>
+
+    <aside>
+      <h2>About section</h2>
+      <p>
+        Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae
+        est. Mauris placerat eleifend leo.
+      </p>
+    </aside>
+
+    <footer>
+      <p>Copyright 2009 Your name</p>
+    </footer>
+  </body>
 </html>
