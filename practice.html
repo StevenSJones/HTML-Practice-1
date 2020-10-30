@@ -19,23 +19,40 @@
   <body>
     <!-- New Elements in HTML5
 <article>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <footer>, <header>, <nav>, <output>, <progress>, <section>, <video>, and even more! -->
-    <header>
-      <nav>
-        <ul>
-          <li>Your menu</li>
-        </ul>
-      </nav>
-    </header>
 
-    <svg width="320" height="320">
+    <svg width="1000" height="250">
+      <rect width="150" height="150" fill="orange">
+        <animate
+          attributeName="x"
+          from="0"
+          to="1000"
+          dur="20s"
+          fill="freeze"
+          repeatCount="indefinite"
+          />
+        </rect>
+    </svg>
+    <!-- the exact number of repetitions can also be specified with the repeatCount attribute. -->
+
+    <!-- attributeName: Specifies which attribute will be affected by the animation
+from: Specifies the starting value of the attribute
+to: Specifies the ending value of the attribute
+dur: Specifies how long the animation runs (duration)
+fill: Specifies whether or not the attribute's value should return to its initial value when the animation is finished (Values: "remove" resets the value; "freeze" keeps the “to value”)
+repeatCount: Specifies the repeat count of the animation
+
+In the example above, the rectangle changes its x attribute from 0 to 300 in 3 seconds. -->
+
+    <!-- 1000 fits on a line as far as I can see so far, this fits two shapes on a line as they are currently constructed. -->
+    <svg width="500" height="500">
       <circle cx="80" cy="80" r="80" fill="blue" stroke="orange" />
     </svg>
 
-    <svg width="300" height="100">
+    <svg width="500" height="500">
       <rect width="300" height="100" x="20" y="20" fill="red" stroke="blue" />
     </svg>
 
-    <svg width="200" height="200">
+    <svg width="500" height="500">
       <line
         x1="10"
         y1="10"
@@ -46,7 +63,7 @@
     </svg>
     <!-- <line> defines a line segment: (x1, y1) define the start coordinates(x2, y2) define the end coordinates.-->
 
-    <svg width="210" height="200">
+    <svg width="500" height="500">
       <polyline
         style="
           stroke-linejoin: miter;
@@ -60,10 +77,16 @@
     <!-- <polyline> defines shapes built from multiple line definitions -->
 
     <svg height="500" width="500">
-      <ellipse cx="220" cy="100" rx="150" ry="70" style="fill: green" />
+      <ellipse
+        cx="220"
+        cy="100"
+        rx="150"
+        ry="70"
+        style="fill: violet; stroke: crimson"
+      />
     </svg>
     <!-- The <ellipse> is similar to the <circle>, with one exception:
-You can independently change the horizontal and vertical axes of its radius, using the rx and ry attributes. -->
+                You can independently change the horizontal and vertical axes of its radius, using the rx and ry attributes. -->
 
     <svg width="500" height="500">
       <polygon
@@ -74,12 +97,19 @@ You can independently change the horizontal and vertical axes of its radius, usi
     <!-- The <polygon> element is used to create a graphic with at least three sides. The polygon element is unique because it automatically closes off the shape for you. -->
 
     <!-- To draw shapes with SVG, you first need to create an SVG element tag with two attributes: width and height. 
-- cx pushes the center of the circle further to the right of the screen
-- cy pushes the center of the circle further down from the top of the screen
-- r defines the radius
-- fill determines the color of our circle
-- stroke adds an outline to the circle
-- Every element and every attribute in SVG files can be animated.-->
+                        - cx pushes the center of the circle further to the right of the screen
+                        - cy pushes the center of the circle further down from the top of the screen
+                        - r defines the radius
+                        - fill determines the color of our circle
+                        - stroke adds an outline to the circle
+                        - Every element and every attribute in SVG files can be animated.-->
+    <header>
+      <nav>
+        <ul>
+          <li>Your menu</li>
+        </ul>
+      </nav>
+    </header>
 
     <section>
       <article>
