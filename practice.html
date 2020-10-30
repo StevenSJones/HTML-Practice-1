@@ -30,6 +30,38 @@
     <svg width="320" height="320">
       <circle cx="80" cy="80" r="80" fill="blue" stroke="orange" />
     </svg>
+
+    <svg width="300" height="100">
+      <rect width="300" height="100" x="20" y="20" fill="red" stroke="blue" />
+    </svg>
+
+    <!-- <line> defines a line segment: 
+        (x1, y1) define the start coordinates(x2, y2) define the end coordinates.-->
+    <svg width="400" height="400">
+      <line
+        x1="10"
+        y1="10"
+        x2="200"
+        y2="100"
+        style="stroke: royalblue; stroke-linecap: round; stroke-width: 10"
+      />
+    </svg>
+
+    <svg width="210" height="200">
+      <polyline
+        style="
+          stroke-linejoin: miter;
+          stroke: tomato;
+          stroke-width: 12;
+          fill: teal;
+        "
+        points="100 100, 150 150, 200 100"
+      />
+    </svg>
+
+    <svg height="500" width="500">
+      <ellipse cx="220" cy="100" rx="150" ry="70" style="fill: green" />
+    </svg>
     <!-- To draw shapes with SVG, you first need to create an SVG element tag with two attributes: width and height. 
 - cx pushes the center of the circle further to the right of the screen
 - cy pushes the center of the circle further down from the top of the screen
@@ -37,11 +69,6 @@
 - fill determines the color of our circle
 - stroke adds an outline to the circle
 - Every element and every attribute in SVG files can be animated.-->
-
-<svg width="300" height="100">
-   <rect width="300" height="100" 
-     x="20" y="20" fill="red" stroke="blue" />
-</svg>
 
     <section>
       <article>
