@@ -35,9 +35,7 @@
       <rect width="300" height="100" x="20" y="20" fill="red" stroke="blue" />
     </svg>
 
-    <!-- <line> defines a line segment: 
-        (x1, y1) define the start coordinates(x2, y2) define the end coordinates.-->
-    <svg width="400" height="400">
+    <svg width="200" height="200">
       <line
         x1="10"
         y1="10"
@@ -46,6 +44,7 @@
         style="stroke: royalblue; stroke-linecap: round; stroke-width: 10"
       />
     </svg>
+    <!-- <line> defines a line segment: (x1, y1) define the start coordinates(x2, y2) define the end coordinates.-->
 
     <svg width="210" height="200">
       <polyline
@@ -58,10 +57,22 @@
         points="100 100, 150 150, 200 100"
       />
     </svg>
+    <!-- <polyline> defines shapes built from multiple line definitions -->
 
     <svg height="500" width="500">
       <ellipse cx="220" cy="100" rx="150" ry="70" style="fill: green" />
     </svg>
+    <!-- The <ellipse> is similar to the <circle>, with one exception:
+You can independently change the horizontal and vertical axes of its radius, using the rx and ry attributes. -->
+
+    <svg width="500" height="500">
+      <polygon
+        points="100 100, 200 200, 300 0"
+        style="fill: powderblue; stroke: purple"
+      />
+    </svg>
+    <!-- The <polygon> element is used to create a graphic with at least three sides. The polygon element is unique because it automatically closes off the shape for you. -->
+
     <!-- To draw shapes with SVG, you first need to create an SVG element tag with two attributes: width and height. 
 - cx pushes the center of the circle further to the right of the screen
 - cy pushes the center of the circle further down from the top of the screen
