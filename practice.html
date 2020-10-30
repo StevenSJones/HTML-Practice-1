@@ -29,8 +29,8 @@
           dur="20s"
           fill="freeze"
           repeatCount="indefinite"
-          />
-        </rect>
+        />
+      </rect>
     </svg>
     <!-- the exact number of repetitions can also be specified with the repeatCount attribute. -->
 
@@ -42,6 +42,27 @@ fill: Specifies whether or not the attribute's value should return to its initia
 repeatCount: Specifies the repeat count of the animation
 
 In the example above, the rectangle changes its x attribute from 0 to 300 in 3 seconds. -->
+
+<svg width="500" height="500">
+    <path d="M 0 0 L200 200 L200 0 Z" style="stroke: rgb(238, 49, 80);  fill:none;" />
+    </svg>
+    <!-- Paths:
+The <path> element is used to define a path.
+
+The following commands are available for path data:
+M: moveto
+L: lineto
+H: horizontal lineto
+V: vertical lineto
+C: curveto
+S: smooth curveto
+Q: quadratic Bézier curve
+T: smooth quadratic Bézier curveto
+A: elliptical Arc
+Z: closepath
+Define a path using the d attribute: -->
+
+
 
     <!-- 1000 fits on a line as far as I can see so far, this fits two shapes on a line as they are currently constructed. -->
     <svg width="500" height="500">
