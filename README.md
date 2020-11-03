@@ -36,5 +36,5 @@ What things you need to install the software and how to install them:
 This project is not licensed. 
 
 ## Further Contact:
-> Feel free to reach out to me with questions involving this project on GITHUB at : [stevensjones](https://github.com/stevensjones);
+> Feel free to contribute to this repository or to reach out to me with questions involving this project on GITHUB by clicking the following link: [StevenSJones](https://github.com/stevensjones)
   
