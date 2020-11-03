@@ -6,3 +6,19 @@ HTML-Practice
 # Project Title: HTML-Practice
 In this project, I am exploring and experimenting with the different parts of HTML. I plan on using everything that I can find online to familiarize myself with HTML further.  
 
+
+## description: 
+>In this project, I am explicitly noting what each part of the HTML document is and what it does to the best of my ability in the hope of understanding HTML at a higher capacity.
+
+## Table of Contents:
+- [title](#title)
+- [Prerequisites](#Prerequisites)
+- [Tests](#Tests)
+- [Contributing](#Contributing)
+- [Usage](#Usage) 
+- [License](#License)
+
+## Prerequisites:
+What things you need to install the software and how to install them: 
+> You need to install nothing as of yet.
+  
