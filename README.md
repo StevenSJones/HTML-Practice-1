@@ -21,4 +21,14 @@ In this project, I am exploring and experimenting with the different parts of HT
 ## Prerequisites:
 What things you need to install the software and how to install them: 
 > You need to install nothing as of yet.
+
+## Usage:
+> This project is specifically for me to better understand coding as a whole and progress as a web-developer. 
+    
+## Tests:
+> There are no tests for the application.
+    
+## Contributing:
+> Steven Jones
+    
   
