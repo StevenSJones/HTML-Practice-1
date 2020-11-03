@@ -30,5 +30,11 @@ What things you need to install the software and how to install them:
     
 ## Contributing:
 > Steven Jones
-    
+
+## License
+> [License Info](https://opensource.org/licenses/lot )
+This project is not licensed. 
+
+## Further Contact:
+> Feel free to reach out to me with questions involving this project on GITHUB at : [stevensjones](https://github.com/stevensjones);
   
