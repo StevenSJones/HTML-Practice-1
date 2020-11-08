@@ -19,7 +19,7 @@ In this project, I am exploring and experimenting with the different parts of HT
 - [License](#License)
 
 ## Prerequisites:
-What things you need to install the software and how to install them: 
+What things you need to install the application and how to install them: 
 > You need to install nothing as of yet.
 
 ## Usage:
